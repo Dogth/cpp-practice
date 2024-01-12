@@ -5,7 +5,3 @@ std::pair<std::vector<int>,int> solve(std::vector<int> numbers) {
   }
   return std::make_pair(result, result.size());
 }
-
-int main(){
-  return 0;
-}

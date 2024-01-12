@@ -8,7 +8,3 @@ std::string solve(int number) {
     "","one","two","three","four","five","six","seven","eight","nine" };
   return tens[number / 10] + ones[number % 10];
 }
-
-int main(){
-  return 0;
-}

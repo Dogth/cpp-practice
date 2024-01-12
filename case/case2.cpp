@@ -16,7 +16,3 @@ std::string solve(int grade){
       return "Плохо";
   }
 }
-
-int main(){
-  return 0;
-}

@@ -5,7 +5,3 @@ std::tuple<int,int,int> solve(int seconds) {
   int hours = minutes / 60;
   return std::tuple<int,int,int>(hours, minutes % 60, seconds % 60);
 }
-
-int main(){
-  return 0;
-}

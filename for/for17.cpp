@@ -5,7 +5,3 @@ int solve(int a, int n){
   };
   return res;
 }
-
-int main(){
-  return 0;
-}

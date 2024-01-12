@@ -4,7 +4,3 @@ bool solve(int number){
     number / 10 == (number / 10) % 10;
 }
 
-int main(){
-    return 0;
-}
-
