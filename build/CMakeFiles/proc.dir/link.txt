@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/proc.dir/tests/proc.cc.o -o proc  lib/libgtest_main.a lib/libgtest.a 

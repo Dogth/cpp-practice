@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/if.dir/tests/if.cc.o -o if  lib/libgtest_main.a lib/libgtest.a 

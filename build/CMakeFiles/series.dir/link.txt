@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/series.dir/tests/series.cc.o -o series  lib/libgtest_main.a lib/libgtest.a 

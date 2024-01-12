@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/case.dir/tests/case.cc.o -o case  lib/libgtest_main.a lib/libgtest.a 

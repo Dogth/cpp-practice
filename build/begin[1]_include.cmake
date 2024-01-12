@@ -1,0 +1,5 @@
+if(EXISTS "/home/dogthie/CppPractice/build/begin[1]_tests.cmake")
+  include("/home/dogthie/CppPractice/build/begin[1]_tests.cmake")
+else()
+  add_test(begin_NOT_BUILT begin_NOT_BUILT)
+endif()

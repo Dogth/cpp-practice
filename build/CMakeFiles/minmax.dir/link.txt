@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/minmax.dir/tests/minmax.cc.o -o minmax  lib/libgtest_main.a lib/libgtest.a 
