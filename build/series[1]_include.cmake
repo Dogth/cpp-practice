@@ -1,5 +1,5 @@
-if(EXISTS "/home/dogthie/CppPractice/build/series[1]_tests.cmake")
-  include("/home/dogthie/CppPractice/build/series[1]_tests.cmake")
+if(EXISTS "/home/dogthie/cpp-practice/build/series[1]_tests.cmake")
+  include("/home/dogthie/cpp-practice/build/series[1]_tests.cmake")
 else()
   add_test(series_NOT_BUILT series_NOT_BUILT)
 endif()

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/dogthie/CppPractice/tests/while.cc" "CMakeFiles/while.dir/tests/while.cc.o" "gcc" "CMakeFiles/while.dir/tests/while.cc.o.d"
+  "/home/dogthie/cpp-practice/tests/while.cc" "CMakeFiles/while.dir/tests/while.cc.o" "gcc" "CMakeFiles/while.dir/tests/while.cc.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

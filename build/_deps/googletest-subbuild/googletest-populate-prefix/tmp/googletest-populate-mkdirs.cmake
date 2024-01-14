@@ -4,19 +4,19 @@
 cmake_minimum_required(VERSION 3.5)
 
 file(MAKE_DIRECTORY
-  "/home/dogthie/CppPractice/build/_deps/googletest-src"
-  "/home/dogthie/CppPractice/build/_deps/googletest-build"
-  "/home/dogthie/CppPractice/build/_deps/googletest-subbuild/googletest-populate-prefix"
-  "/home/dogthie/CppPractice/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
-  "/home/dogthie/CppPractice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
-  "/home/dogthie/CppPractice/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
-  "/home/dogthie/CppPractice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/home/dogthie/cpp-practice/build/_deps/googletest-src"
+  "/home/dogthie/cpp-practice/build/_deps/googletest-build"
+  "/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/googletest-populate-prefix"
+  "/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/googletest-populate-prefix/tmp"
+  "/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
+  "/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/googletest-populate-prefix/src"
+  "/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp"
 )
 
 set(configSubDirs )
 foreach(subDir IN LISTS configSubDirs)
-    file(MAKE_DIRECTORY "/home/dogthie/CppPractice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
+    file(MAKE_DIRECTORY "/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/${subDir}")
 endforeach()
 if(cfgdir)
-  file(MAKE_DIRECTORY "/home/dogthie/CppPractice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
+  file(MAKE_DIRECTORY "/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp${cfgdir}") # cfgdir has leading slash
 endif()

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dogthie/CppPractice
+CMAKE_SOURCE_DIR = /home/dogthie/cpp-practice
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dogthie/CppPractice/build
+CMAKE_BINARY_DIR = /home/dogthie/cpp-practice/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -156,14 +156,14 @@ _deps/googletest-build/googletest/clean: _deps/googletest-build/googletest/CMake
 CMakeFiles/CppPractice.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppPractice.dir/build.make CMakeFiles/CppPractice.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/CppPractice.dir/build.make CMakeFiles/CppPractice.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=1,2 "Built target CppPractice"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=1,2 "Built target CppPractice"
 .PHONY : CMakeFiles/CppPractice.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/CppPractice.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/CppPractice.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/CppPractice.dir/rule
 
 # Convenience name for target.
@@ -183,14 +183,14 @@ CMakeFiles/begin.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir
 CMakeFiles/begin.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/begin.dir/build.make CMakeFiles/begin.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/begin.dir/build.make CMakeFiles/begin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=3,4 "Built target begin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=3,4 "Built target begin"
 .PHONY : CMakeFiles/begin.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/begin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/begin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/begin.dir/rule
 
 # Convenience name for target.
@@ -210,14 +210,14 @@ CMakeFiles/boolean.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.d
 CMakeFiles/boolean.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boolean.dir/build.make CMakeFiles/boolean.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/boolean.dir/build.make CMakeFiles/boolean.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=5,6 "Built target boolean"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=5,6 "Built target boolean"
 .PHONY : CMakeFiles/boolean.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/boolean.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/boolean.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/boolean.dir/rule
 
 # Convenience name for target.
@@ -237,14 +237,14 @@ CMakeFiles/case.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/
 CMakeFiles/case.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/case.dir/build.make CMakeFiles/case.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/case.dir/build.make CMakeFiles/case.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=7,8 "Built target case"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=7,8 "Built target case"
 .PHONY : CMakeFiles/case.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/case.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/case.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/case.dir/rule
 
 # Convenience name for target.
@@ -264,14 +264,14 @@ CMakeFiles/for.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/a
 CMakeFiles/for.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/for.dir/build.make CMakeFiles/for.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=9,10 "Built target for"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=9,10 "Built target for"
 .PHONY : CMakeFiles/for.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/for.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/for.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/for.dir/rule
 
 # Convenience name for target.
@@ -291,14 +291,14 @@ CMakeFiles/if.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/al
 CMakeFiles/if.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/if.dir/build.make CMakeFiles/if.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=19,20 "Built target if"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=19,20 "Built target if"
 .PHONY : CMakeFiles/if.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/if.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/if.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/if.dir/rule
 
 # Convenience name for target.
@@ -318,14 +318,14 @@ CMakeFiles/integer.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.d
 CMakeFiles/integer.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/integer.dir/build.make CMakeFiles/integer.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/integer.dir/build.make CMakeFiles/integer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=21,22 "Built target integer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=21,22 "Built target integer"
 .PHONY : CMakeFiles/integer.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/integer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/integer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/integer.dir/rule
 
 # Convenience name for target.
@@ -345,14 +345,14 @@ CMakeFiles/minmax.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.di
 CMakeFiles/minmax.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minmax.dir/build.make CMakeFiles/minmax.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minmax.dir/build.make CMakeFiles/minmax.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=23,24 "Built target minmax"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=23,24 "Built target minmax"
 .PHONY : CMakeFiles/minmax.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/minmax.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/minmax.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/minmax.dir/rule
 
 # Convenience name for target.
@@ -372,14 +372,14 @@ CMakeFiles/proc.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/
 CMakeFiles/proc.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proc.dir/build.make CMakeFiles/proc.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/proc.dir/build.make CMakeFiles/proc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=25,26 "Built target proc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=25,26 "Built target proc"
 .PHONY : CMakeFiles/proc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/proc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/proc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/proc.dir/rule
 
 # Convenience name for target.
@@ -399,14 +399,14 @@ CMakeFiles/series.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.di
 CMakeFiles/series.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/series.dir/build.make CMakeFiles/series.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/series.dir/build.make CMakeFiles/series.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=27,28 "Built target series"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=27,28 "Built target series"
 .PHONY : CMakeFiles/series.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/series.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/series.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/series.dir/rule
 
 # Convenience name for target.
@@ -426,14 +426,14 @@ CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir
 CMakeFiles/tests.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tests.dir/build.make CMakeFiles/tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=29,30 "Built target tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=29,30 "Built target tests"
 .PHONY : CMakeFiles/tests.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/tests.dir/rule
 
 # Convenience name for target.
@@ -453,14 +453,14 @@ CMakeFiles/while.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir
 CMakeFiles/while.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/while.dir/build.make CMakeFiles/while.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=31,32 "Built target while"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=31,32 "Built target while"
 .PHONY : CMakeFiles/while.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/while.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/while.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : CMakeFiles/while.dir/rule
 
 # Convenience name for target.
@@ -479,14 +479,14 @@ CMakeFiles/while.dir/clean:
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=11,12 "Built target gmock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=11,12 "Built target gmock"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock.dir/rule
 
 # Convenience name for target.
@@ -506,14 +506,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletes
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build.make _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=13,14 "Built target gmock_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=13,14 "Built target gmock_main"
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/rule
 
 # Convenience name for target.
@@ -532,14 +532,14 @@ _deps/googletest-build/googlemock/CMakeFiles/gmock_main.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all:
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=15,16 "Built target gtest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=15,16 "Built target gtest"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest.dir/rule
 
 # Convenience name for target.
@@ -558,14 +558,14 @@ _deps/googletest-build/googletest/CMakeFiles/gtest.dir/clean:
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all: _deps/googletest-build/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/depend
 	$(MAKE) $(MAKESILENT) -f _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build.make _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/CppPractice/build/CMakeFiles --progress-num=17,18 "Built target gtest_main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/dogthie/cpp-practice/build/CMakeFiles --progress-num=17,18 "Built target gtest_main"
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
 
 # Build rule for subdir invocation for target.
 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/CppPractice/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/dogthie/cpp-practice/build/CMakeFiles 0
 .PHONY : _deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/rule
 
 # Convenience name for target.

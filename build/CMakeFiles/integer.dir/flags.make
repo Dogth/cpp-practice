@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -isystem /home/dogthie/CppPractice/build/_deps/googletest-src/googletest/include -isystem /home/dogthie/CppPractice/build/_deps/googletest-src/googletest
+CXX_INCLUDES = -isystem /home/dogthie/cpp-practice/build/_deps/googletest-src/googletest/include -isystem /home/dogthie/cpp-practice/build/_deps/googletest-src/googletest
 
 CXX_FLAGS = -std=gnu++20
 

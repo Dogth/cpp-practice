@@ -1,3 +1,3 @@
-/home/dogthie/CppPractice/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/home/dogthie/CppPractice/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/home/dogthie/CppPractice/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
+/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
+/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
+/home/dogthie/cpp-practice/build/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir

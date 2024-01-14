@@ -1,5 +1,5 @@
-if(EXISTS "/home/dogthie/CppPractice/build/proc[1]_tests.cmake")
-  include("/home/dogthie/CppPractice/build/proc[1]_tests.cmake")
+if(EXISTS "/home/dogthie/cpp-practice/build/proc[1]_tests.cmake")
+  include("/home/dogthie/cpp-practice/build/proc[1]_tests.cmake")
 else()
   add_test(proc_NOT_BUILT proc_NOT_BUILT)
 endif()
