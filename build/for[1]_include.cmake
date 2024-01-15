@@ -1,5 +1,0 @@
-if(EXISTS "/home/dogthie/cpp-practice/build/for[1]_tests.cmake")
-  include("/home/dogthie/cpp-practice/build/for[1]_tests.cmake")
-else()
-  add_test(for_NOT_BUILT for_NOT_BUILT)
-endif()

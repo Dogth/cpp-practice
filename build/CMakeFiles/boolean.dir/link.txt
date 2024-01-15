@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/boolean.dir/tests/boolean.cc.o -o boolean  lib/libgtest_main.a lib/libgtest.a 

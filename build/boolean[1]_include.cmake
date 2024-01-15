@@ -1,5 +1,0 @@
-if(EXISTS "/home/dogthie/cpp-practice/build/boolean[1]_tests.cmake")
-  include("/home/dogthie/cpp-practice/build/boolean[1]_tests.cmake")
-else()
-  add_test(boolean_NOT_BUILT boolean_NOT_BUILT)
-endif()

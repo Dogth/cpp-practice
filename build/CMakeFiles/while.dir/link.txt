@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/while.dir/tests/while.cc.o -o while  lib/libgtest_main.a lib/libgtest.a 

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/begin.dir/tests/begin.cc.o -o begin  lib/libgtest_main.a lib/libgtest.a 
