@@ -11,7 +11,7 @@ std::pair<int, int> solveBegin6(const int &a,
 }
 
 int solveBegin16(const int &a, int &b){
-  return std::abs(a)-std::abs(b);
+  return std::abs(b - a);
 }
 
 std::array<int, 3> solveBegin27(const int &a) {

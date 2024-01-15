@@ -14,11 +14,6 @@ std::string solveCase2(int grade){
   }
 }
 
-std::string solveCase10(std::string direction, int command){
-  enum directs {N="North", W="West",S="South",E="East"}; 
-  return directs;
-}
-
 std::string solveCase16(const int &age){
   int ageDigit = age % 10;
   std::map<int, std::string> dict = {

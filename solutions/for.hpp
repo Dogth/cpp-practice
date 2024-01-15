@@ -3,10 +3,10 @@
 
 #include <cmath>
 
-int solveFor10(int x){ //Impure
-  int res = 1;
+double solveFor10(double x){ //Impure
+  double res = 0;
   for(x; x > 0; x--){
-    res = res + 1/x;
+    res = res + (1/x);
   }
   return res;
 }

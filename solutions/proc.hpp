@@ -4,7 +4,7 @@
 #include <utility>
 #include <array>
 #include <cmath>
-#include "structs.h"
+#include "structs.hpp"
 
 std::pair<double, double> solveProc3(const double &x,
                                      const double &y) {

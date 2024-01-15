@@ -3,7 +3,7 @@
 
 #include <algorithm>
 
-int solveWhle2(int length, int line){ //Impure
+int solveWhile2(int length, int line){ //Impure
   int counter{};
   while(length>=line){
     length = length - line;

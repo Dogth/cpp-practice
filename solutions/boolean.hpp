@@ -3,7 +3,7 @@
 
 #include <utility>
 #include <array>
-#include "structs.h"
+#include "./structs.hpp"
 
 bool solveBoolean11(const int &a,
                     const int &b){
@@ -25,7 +25,7 @@ bool solveBoolean29(const Point &point,
 
 bool solveBoolean35(const Point &point1,
                     const Point &point2){
-  return (point1.x + point1.y) % 2 == (point2.x + point2.y) % 2;
+  return (point1.x + point1.y) / 2 == (point2.x + point2.y) / 2;
 }
 
 #endif
